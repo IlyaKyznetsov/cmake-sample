@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.18.1)
+project(LIBS)
+add_custom_target(LIBS)
+add_subdirectory(sum)
+add_subdirectory(multiplication)
